@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+
+  text-decoration: none;
+}
+body{
+  background-image: url("https://media.istockphoto.com/vectors/animal-paw-seamless-pattern-stock-illustration-vector-id1189999060?k=20&m=1189999060&s=612x612&w=0&h=Kx5ZOgafd0Q5bt0_GQ42jba1RpIYFzhBHsXuODzsDWQ=");
+}
+
+.container {
+  display: flex;
+     
+    
+      
+        padding-right: 0px !important;
+        padding-left: 0px !important; 
+        margin-right:0px !important ;
+        margin-left: 0px !important;
+        min-height: 100vh;
+}
+
+
+
+
+.sidebar {
+  background: #000;
+  color: #fff;
+  width: 250px;
+  transition: all 0.5s;
+}
+
+.top_section {
+
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+ 
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+.home{
+  background-color: violet;
+ 
+  min-width:100%;
+}
+.main{
+  min-width:114%;
+}
+.hero{
+  box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 14px 7px rgba(0,0,0,0.75);
+}
